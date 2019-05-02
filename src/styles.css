@@ -1,0 +1,76 @@
+
+body{
+height: 100%;
+width: 100%
+
+}
+form {
+  border: 3px solid #f1f1f1;
+  width:600px;
+  height:300px;
+  display:block;
+  position: absolute;
+  top:30%;
+  left: 30%;
+border: darkred
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:blue;
+  color: white;
+  width:120px;
+  height:25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  left: 50%;
+}
+
+
+button:hover {
+  background:gray
+}
+
+.cancelbtn {
+    font-size:10px;
+    font-family:Arial;
+    font-weight:bold;
+    color:white;
+    background:#da1a1a;
+    border:0px;
+    width:120px;
+    height:25px;
+    position: absolute;
+    
+  
+}
+.container {
+position: center
+}
+
+span.contaseña {
+  float: right;
+  padding-top: 16px;
+
+  
+
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
